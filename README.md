@@ -13,9 +13,19 @@ The Spring Boot server handles WebSocket communication using STOMP protocol. The
 - **`Greeting.java` and `HelloMessage.java`**: Define message structures.
 - **`StompApplication.java`**: Entry point for the Spring Boot application.
 
+
 ### Frontend
+
+#### **Option 1: Vanilla JavaScript Frontend**
 - **`index.html`**: Contains the user interface for the WebSocket connection and message exchange.
 - **`app.js`**: Contains the JavaScript logic for managing the WebSocket connection and STOMP client.
+
+#### **Option 2: ReactJS Frontend**
+We also provide a modern ReactJS frontend implementation that works seamlessly with this backend. It uses the Vite bundler for development and includes dynamic WebSocket connection handling.
+
+- **Repository Link**: [ReactJS Frontend for STOMP WebSocket](https://github.com/ibrahimsoltan/stomp-reactjs-test-app)
+
+> This ReactJS implementation provides a better developer experience with componentized UI and state management for WebSocket events.
 
 ## Getting Started
 
